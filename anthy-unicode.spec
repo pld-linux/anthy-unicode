@@ -123,5 +123,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_lispdir}/anthy-unicode/leim-list.el
 %if %{with emacs}
 %{_lispdir}/anthy-unicode/anthy*.elc
-%{_lispdir}/anthy-unicode/leim-list.elc
 %endif
