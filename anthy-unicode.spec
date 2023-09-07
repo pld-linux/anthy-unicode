@@ -5,13 +5,13 @@
 Summary:	A Japanese character input system library (with dictionary)
 Summary(pl.UTF-8):	System wprowadzania znaków japońskich (ze słownikiem)
 Name:		anthy-unicode
-Version:	1.0.0.20191015
+Version:	1.0.0.20211224
 Release:	1
 License:	LGPL v2+ (library), GPL (dictionary)
 Group:		Libraries
 #Source0Download: https://github.com/fujiwarat/anthy-unicode/releases
 Source0:	https://github.com/fujiwarat/anthy-unicode/releases/download/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	c1b0281a28bf85dc4ff6189a54ef7c32
+# Source0-md5:	9dbd7688e17561d65354d6779222fe4e
 URL:		https://github.com/fujiwarat/anthy-unicode
 %{?with_emacs:BuildRequires:	emacs}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
